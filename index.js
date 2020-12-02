@@ -24,28 +24,22 @@ client.on('message', (message) => {
   }
 
   if(message.content == '!help') {
-    let img = 'https://lh3.googleusercontent.com/proxy/_vnQDg9FoFsMoCUXl974zdRQXczi6uOVlcS4hrXhW6vrk2Oojqf1k-WpZhmwlcQ9NkFBu-EdlabOhT1U7789wk7uYbed6p87qsbTmFDUhSdbJKMTRB6XucNMq00Be2LO4ljr42DPpuRla9C4n51uG7FbMJjxxiPoop7x';
+    let img = 'https://2.gall-img.com/hygall/files/attach/images/82/099/007/086/e06b5d7f31051acee9ada2f3e8f806b1.png';
     let embed = new Discord.RichEmbed()
-      .setTitle('헬프')
-      .setURL('http://localhost:3000/la1')
-      .setAuthor('앙 기모띠', img, 'http://localhost:3000/la1')
+      .setAuthor('뭐물래', img, 'https://2.gall-img.com/hygall/files/attach/images/82/099/007/086/e06b5d7f31051acee9ada2f3e8f806b1.png')
       .setThumbnail(img)
       .addBlankField()
-      .addField('크롤링', '데이따')
-      .addField('Inline field title', '크', true)
-      .addField('Inline field title', '롤', true)
-      .addField('Inline field title', '링', true)
-      .addField('Inline field title', '크\n크\n크\n')
+      .addField('명령어', '!한식\n!분식\n!일식\n!양식\n!중식\n천호 ')
       .addBlankField()
       .setTimestamp()
-      .setFooter('앙 기모링~', img)
+      .setFooter('명령어 모음', img)
       
 
     message.channel.send(embed)
   }
   
 
-  if(message.content == '천호') {
+  if(message.content == '!천호') {
     let img = 'https://lh3.googleusercontent.com/proxy/_vnQDg9FoFsMoCUXl974zdRQXczi6uOVlcS4hrXhW6vrk2Oojqf1k-WpZhmwlcQ9NkFBu-EdlabOhT1U7789wk7uYbed6p87qsbTmFDUhSdbJKMTRB6XucNMq00Be2LO4ljr42DPpuRla9C4n51uG7FbMJjxxiPoop7x';
     let embed = new Discord.RichEmbed()
       .setTitle('천호')
