@@ -1,3 +1,4 @@
+//https://discord.com/developers/applications/781454845882007552/bot
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -14,8 +15,8 @@ client.on('message', (message) => {
     return message.reply('pong');
   }
 
-  if(message.content == '추천') {
-    let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
+  if(message.content == '추') {
+    let img = '/portfolio/food1.jpg';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
       .setURL('http://www.naver.com')
