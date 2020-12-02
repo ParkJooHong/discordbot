@@ -24,12 +24,12 @@ client.on('message', (message) => {
   }
 
   if(message.content == '!help') {
-    let img = 'https://2.gall-img.com/hygall/files/attach/images/82/099/007/086/e06b5d7f31051acee9ada2f3e8f806b1.png';
+    let img = 'https://file3.instiz.net/data/file3/2018/05/05/1/c/d/1cdd07939cc168ca86a510622006d904.gif';
     let embed = new Discord.RichEmbed()
-      .setAuthor('뭐물래', img, 'https://2.gall-img.com/hygall/files/attach/images/82/099/007/086/e06b5d7f31051acee9ada2f3e8f806b1.png')
+      .setAuthor('뭐물래', img, 'https://file3.instiz.net/data/file3/2018/05/05/1/c/d/1cdd07939cc168ca86a510622006d904.gif')
       .setThumbnail(img)
       .addBlankField()
-      .addField('명령어', '!한식\n!분식\n!일식\n!양식\n!중식\n천호 ')
+      .addField('명령어', '\n!한식\n!분식\n!일식\n!양식\n!중식\n!천호 ')
       .addBlankField()
       .setTimestamp()
       .setFooter('명령어 모음', img)
