@@ -1,3 +1,10 @@
+//git add *
+//git commit -m "커밋할 메시지"
+//git push 
+// 차례로 한 후 heroku 에서 
+//deploy 에서 deploy branch
+
+
 //https://discord.com/developers/applications/781454845882007552/bot
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -16,7 +23,7 @@ client.on('message', (message) => {
   }
 
   if(message.content == '추') {
-    let img = '/portfolio/food1.jpg';
+    //let img = '/portfolio/food1.jpg';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
       .setURL('http://www.naver.com')
