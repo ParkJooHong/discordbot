@@ -25,9 +25,9 @@ client.on('message', (message) => {
   if(message.content == '천호') {
     let img = 'https://lh3.googleusercontent.com/proxy/_vnQDg9FoFsMoCUXl974zdRQXczi6uOVlcS4hrXhW6vrk2Oojqf1k-WpZhmwlcQ9NkFBu-EdlabOhT1U7789wk7uYbed6p87qsbTmFDUhSdbJKMTRB6XucNMq00Be2LO4ljr42DPpuRla9C4n51uG7FbMJjxxiPoop7x';
     let embed = new Discord.RichEmbed()
-      .setTitle('타이틀')
-      .setURL('http://www.naver.com')
-      .setAuthor('나긋해', img, 'http://www.naver.com')
+      .setTitle('천호')
+      .setURL('http://localhost:3000/la1')
+      .setAuthor('앙 기모띠', img, 'http://localhost:3000/la1')
       .setThumbnail(img)
       .addBlankField()
       .addField('Inline field title', 'Some value here')
@@ -37,7 +37,7 @@ client.on('message', (message) => {
       .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
       .addBlankField()
       .setTimestamp()
-      .setFooter('나긋해가 만듬', img)
+      .setFooter('앙 기모링~', img)
       
 
     message.channel.send(embed)
