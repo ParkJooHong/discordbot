@@ -23,7 +23,7 @@ client.on('message', (message) => {
   }
 
   if(message.content == '천호') {
-    let img = 'https://www.google.com/imgres?imgurl=http%3A%2F%2Fmblogthumb4.phinf.naver.net%2F20141201_243%2Fmunsai_1417364357691yMUSp_JPEG%2FIMG_0160.JPG%3Ftype%3Dw2&imgrefurl=http%3A%2F%2Fm.blog.naver.com%2Fmunsai%2F220196793415&tbnid=6ur0MYYoBuifGM&vet=12ahUKEwjwuJan-K7tAhURhJQKHbdwC64QMygDegUIARCkAQ..i&docid=lMFJy8LRw9jdAM&w=740&h=552&q=%EB%8F%99%EC%84%9C%EB%8C%80%20%EC%B2%9C%ED%98%B8&ved=2ahUKEwjwuJan-K7tAhURhJQKHbdwC64QMygDegUIARCkAQ';
+    let img = 'https://lh3.googleusercontent.com/proxy/_vnQDg9FoFsMoCUXl974zdRQXczi6uOVlcS4hrXhW6vrk2Oojqf1k-WpZhmwlcQ9NkFBu-EdlabOhT1U7789wk7uYbed6p87qsbTmFDUhSdbJKMTRB6XucNMq00Be2LO4ljr42DPpuRla9C4n51uG7FbMJjxxiPoop7x';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
       .setURL('http://www.naver.com')
