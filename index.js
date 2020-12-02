@@ -22,11 +22,11 @@ client.on('message', (message) => {
     return message.reply('pong');
   }
 
-  if(message.content == '추') {
+  if(message.content == '천호') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
-      .setURL('http://www.naver.com')
+      .setURL('../ko1')
       .setAuthor('나긋해', img, 'http://www.naver.com')
       .setThumbnail(img)
       .addBlankField()
