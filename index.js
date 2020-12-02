@@ -23,7 +23,7 @@ client.on('message', (message) => {
   }
 
   if(message.content == '추') {
-    let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
+    let img = 'portfolio/food1.jpg';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
       .setURL('http://www.naver.com')
@@ -38,7 +38,7 @@ client.on('message', (message) => {
       .addBlankField()
       .setTimestamp()
       .setFooter('나긋해가 만듬', img)
-      .img('/portfolio/food1.jpg')
+    
 
     message.channel.send(embed)
   } 
