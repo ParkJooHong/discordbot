@@ -38,6 +38,7 @@ client.on('message', (message) => {
       .addBlankField()
       .setTimestamp()
       .setFooter('나긋해가 만듬', img)
+      .img('/portfolio/food1.jpg')
 
     message.channel.send(embed)
   } 
