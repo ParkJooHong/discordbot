@@ -1,6 +1,7 @@
 //git add *
 //git commit -m "커밋할 메시지"
 //git push 
+// git push -f origin master
 // 차례로 한 후 heroku 에서 
 //deploy 에서 deploy branch
 
@@ -47,6 +48,7 @@ client.on('message', (message) => {
       .setAuthor('앙 기모띠', img, 'http://localhost:3000/la1')
       .setThumbnail(img)
       .addBlankField()
+      .setImage('http://www.tresbe.com/files/attach/images/1149/167/001/d81622cc55cc4f59e23e9510864ad7d8.jpg')
       .addField('크롤링', '데이따')
       .addField('Inline field title', '크', true)
       .addField('Inline field title', '롤', true)
