@@ -1,7 +1,6 @@
 {
   "name": "Ex_bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "r": "node index.js"
@@ -9,5 +8,18 @@
   "dependencies": {
     "discord": "^0.8.2",
     "discord.js": "^11.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkJooHong/discordbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParkJooHong/discordbot/issues"
+  },
+  "homepage": "https://github.com/ParkJooHong/discordbot#readme",
+  "description": ""
 }
