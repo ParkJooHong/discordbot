@@ -45,7 +45,7 @@ client.on('message', (message) => {
     let embed = new Discord.RichEmbed()
       .setTitle('천호')
       .setURL('http://localhost:3000/la1')
-      .setAuthor('앙 기모띠', img, 'http://localhost:3000/la1')
+      .setAuthor('한식 메뉴', img, 'http://localhost:3000/la1')
       .setThumbnail(img)
       //.addBlankField()
       .setImage('http://www.tresbe.com/files/attach/images/1149/167/001/d81622cc55cc4f59e23e9510864ad7d8.jpg')
@@ -55,7 +55,7 @@ client.on('message', (message) => {
       //.addField('Inline field title', '크\n크\n크\n')
       //.addBlankField()
       .setTimestamp()
-      .setFooter('앙 기모링~', img)
+      .setFooter('오늘 오면 꽁짜', img)
       
 
     message.channel.send(embed)
