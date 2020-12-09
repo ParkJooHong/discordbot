@@ -20,8 +20,8 @@ client.on('ready', () => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'ping') {
-    return message.reply('pong');
+  if(message.content == '안녕') {
+    return message.reply('안녕하세요! 머물래에요:3');
   }
 
   if(message.content == '!help') {
@@ -47,14 +47,13 @@ client.on('message', (message) => {
       .setURL('http://localhost:3000/la1')
       .setAuthor('앙 기모띠', img, 'http://localhost:3000/la1')
       .setThumbnail(img)
-      .addBlankField()
+      //.addBlankField()
       .setImage('http://www.tresbe.com/files/attach/images/1149/167/001/d81622cc55cc4f59e23e9510864ad7d8.jpg')
-      .addField('크롤링', '데이따')
-      .addField('Inline field title', '크', true)
-      .addField('Inline field title', '롤', true)
-      .addField('Inline field title', '링', true)
-      .addField('Inline field title', '크\n크\n크\n')
-      .addBlankField()
+      .addField('제육볶음', '1인분 5000원', true)
+      .addField('닭갈비', '1인분 4500원', true)
+      .addField('라면', '1봉지 3000원', true)
+      //.addField('Inline field title', '크\n크\n크\n')
+      //.addBlankField()
       .setTimestamp()
       .setFooter('앙 기모링~', img)
       
