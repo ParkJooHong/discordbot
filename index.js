@@ -31,7 +31,7 @@ client.on('message', (message) => {
       .setThumbnail(img)
       .addBlankField()
       .addField('!한식', '!토마토\n!천호', true)
-      .addField('!분식', '1인분 4500원', true)
+      .addField('     !분식', '     !아맛나\n!엄망', true)
       .addField('!중식', '1봉지 3000원', true)
       .addField('!양식', '1인분 4500원', true)
       .addField('!일식', '1봉지 3000원', true)
@@ -57,6 +57,7 @@ client.on('message', (message) => {
       .addField('제육볶음', '1인분 5000원', true)
       .addField('닭갈비', '1인분 4500원', true)
       .addField('라면', '1봉지 3000원', true)
+      
       //.addField('Inline field title', '크\n크\n크\n')
       //.addBlankField()
       .setTimestamp()
