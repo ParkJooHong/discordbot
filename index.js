@@ -62,14 +62,14 @@ client.on('message', (message) => {
   }
   
   if(message.content == '!황금룡') {
-    let img = 'https://blog.naver.com/ca2155/221667560846';
+    let img = 'https://www.kbmaeil.com/news/photo/201905/814422_841631_2731.jpg';
     let embed = new Discord.RichEmbed()
       .setTitle('황금룡')
       .setURL('http://localhost:3000/ch1')
       .setAuthor('중식 메뉴', img, 'http://localhost:3000/ch1')
       .setThumbnail(img)
       //.addBlankField()
-      .setImage('https://blog.naver.com/PostView.nhn?blogId=ca2155&logNo=221667560846&redirect=Dlog&widgetTypeCall=true&topReferer=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fwhere%3Dimage%26sm%3Dtab_jum%26query%3D%25EB%258F%2599%25EC%2584%259C%25EB%258C%2580%2B%25ED%2599%25A9%25EA%25B8%2588%25EB%25A3%25A1&directAccess=false#')
+      .setImage('https://homecuisine.co.kr/files/attach/images/142/737/002/969e9f7dc60d42510c5c0353a58ba701.JPG')
       .addField('짜장면', '4,000원', true)
       .addField('짬뽕', '4,500원', true)
       .addField('짜+짬+탕', '1,5000원', true)
