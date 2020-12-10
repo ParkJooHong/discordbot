@@ -62,14 +62,14 @@ client.on('message', (message) => {
   }
   
   if(message.content == '!황금룡') {
-    let img = 'https://lh3.googleusercontent.com/proxy/_vnQDg9FoFsMoCUXl974zdRQXczi6uOVlcS4hrXhW6vrk2Oojqf1k-WpZhmwlcQ9NkFBu-EdlabOhT1U7789wk7uYbed6p87qsbTmFDUhSdbJKMTRB6XucNMq00Be2LO4ljr42DPpuRla9C4n51uG7FbMJjxxiPoop7x';
+    let img = 'https://blog.naver.com/ca2155/221667560846';
     let embed = new Discord.RichEmbed()
       .setTitle('황금룡')
       .setURL('http://localhost:3000/ch1')
       .setAuthor('중식 메뉴', img, 'http://localhost:3000/ch1')
       .setThumbnail(img)
       //.addBlankField()
-      .setImage('https://www.mangoplate.com/restaurants/dTCp4ccxmc')
+      .setImage('https://blog.naver.com/PostView.nhn?blogId=ca2155&logNo=221667560846&redirect=Dlog&widgetTypeCall=true&topReferer=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fwhere%3Dimage%26sm%3Dtab_jum%26query%3D%25EB%258F%2599%25EC%2584%259C%25EB%258C%2580%2B%25ED%2599%25A9%25EA%25B8%2588%25EB%25A3%25A1&directAccess=false#')
       .addField('짜장면', '4,000원', true)
       .addField('짬뽕', '4,500원', true)
       .addField('짜+짬+탕', '1,5000원', true)
