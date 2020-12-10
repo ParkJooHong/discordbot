@@ -31,10 +31,10 @@ client.on('message', (message) => {
       .setThumbnail(img)
       .addBlankField()
       .addField('!한식', '!토마토\n!천호', true)
-      .addField('!분식', '!아맛나\n!엄망', true)
+      .addField('!분식', '!아맛나', true)
       .addField('!중식', '!황금룡\n!용빈각', true)
-      .addField('!양식', '!오꾸닭\n달리는꼬꼬', true)
-      .addField('!일식', '!오이시스시\n우마미', true)
+      .addField('!양식', '!오꾸닭\n!달리는꼬꼬', true)
+      .addField('!일식', '!오이시스시\n!우마미', true)
       .addBlankField()
       .setTimestamp()
       .setFooter('명령어 모음', img)
@@ -56,13 +56,25 @@ client.on('message', (message) => {
       .addField('제육볶음', '1인분 5000원', true)
       .addField('닭갈비', '1인분 4500원', true)
       .addField('라면', '1봉지 3000원', true)
-      
-      //.addField('Inline field title', '크\n크\n크\n')
-      //.addBlankField()
       .setTimestamp()
       .setFooter('오늘 오면 꽁짜', img)
-      
-
+    message.channel.send(embed)
+  }
+  
+  if(message.content == '!황금룡') {
+    let img = 'https://lh3.googleusercontent.com/proxy/_vnQDg9FoFsMoCUXl974zdRQXczi6uOVlcS4hrXhW6vrk2Oojqf1k-WpZhmwlcQ9NkFBu-EdlabOhT1U7789wk7uYbed6p87qsbTmFDUhSdbJKMTRB6XucNMq00Be2LO4ljr42DPpuRla9C4n51uG7FbMJjxxiPoop7x';
+    let embed = new Discord.RichEmbed()
+      .setTitle('황금룡')
+      .setURL('http://localhost:3000/ch1')
+      .setAuthor('중식 메뉴', img, 'http://localhost:3000/ch1')
+      .setThumbnail(img)
+      //.addBlankField()
+      .setImage('https://www.google.com/url?sa=i&url=http%3A%2F%2Fm.blog.naver.com%2Fimdongseo%2F220477005347&psig=AOvVaw1SlYhsEG1WtV9mbh4XyFbq&ust=1607691555372000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICKxPe7w-0CFQAAAAAdAAAAABAW')
+      .addField('짜장면', '1그릇 4000원', true)
+      .addField('짬뽕', '1그릇 4500원', true)
+      .addField('A세트(짜+짬+탕)', '15000원', true)
+      .setTimestamp()
+      .setFooter('맛남', img)
     message.channel.send(embed)
   }
   
