@@ -30,7 +30,7 @@ client.on('message', (message) => {
       .setAuthor('뭐물래', img, 'https://file3.instiz.net/data/file3/2018/05/05/1/c/d/1cdd07939cc168ca86a510622006d904.gif')
       .setThumbnail(img)
       .addBlankField()
-      .addField('----------한식 종류----------\n', '!토마토\n!천호', true)
+      .addField('----------한식 종류----------', '!토마토\n!천호')
       .addField('&nbsp;&nbsp;!분식', '!아맛나', true)
       .addField('!중식', '!황금룡\n!용빈각', true)
       .addField('!양식', '!오꾸닭\n!달리는꼬꼬', true)
