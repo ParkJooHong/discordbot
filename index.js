@@ -77,9 +77,6 @@ client.on('message', (message) => {
       .setFooter('맛남', img)
     message.channel.send(embed)
   }
-  
-  
-
 });
 
 
